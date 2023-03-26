@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run frontend_v1",
     "deploy": "gh-pages -d frontend_v1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkchua/frontend_v1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkchua/frontend_v1/issues"
+  },
   "homepage": "https://rkchua.github.io/frontend_v1",
   "dependencies": {
     "gh-pages": "^5.0.0"
